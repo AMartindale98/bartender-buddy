@@ -1,0 +1,149 @@
+@media only screen and (max-width: 991px) {
+  .nav-style {
+    justify-content: start;
+  }
+  .nav-justify {
+    margin: auto !important;
+  }
+  .login-form {
+    width: 50vw;
+  }
+}
+
+.navbar-brand {
+  background-color: rgb(159, 186, 188);
+}
+
+.navbar-logo {
+  max-height: 50px;
+}
+
+.nav-justify {
+  margin-left: auto;
+}
+
+.icon {
+  max-height: 25px;
+}
+
+.search {
+  max-height: 30px;
+}
+
+.home-btn-1,
+.home-btn-2,
+.my-cocktail-btn {
+  cursor: pointer;
+}
+
+.home-header {
+  max-height: 65vh;
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(159, 186, 188, 0.5);
+}
+
+.bg-image {
+  background-image: url(Images/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+
+.sign-up-form {
+  /*max-width: 30vw; */
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(159, 186, 188, 0.5);
+  border-radius: 5%;
+}
+
+.sign-up-button {
+  text-align: center;
+}
+
+.button-style {
+  margin-top: 20px;
+}
+.featured-recipes-title {
+  margin-bottom: 20px;
+}
+
+.featured-recipes {
+  text-align: center;
+  max-width: 80vw;
+  margin: auto;
+
+  padding: 20px;
+}
+
+.card-style {
+  width: 100%;
+}
+
+.card-img-style {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.recipe-card {
+  margin: auto;
+  background-color: rgba(247, 230, 195, 0.5) !important;
+}
+
+.welcome {
+  background-image: url(Images/my-cocktails-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.cocktail-header {
+  border-top: 4.5px solid rgb(170, 156, 156);
+}
+
+.m-header {
+  background: linear-gradient(
+    to left,
+    rgb(187, 250, 250),
+    rgb(104, 134, 141) 100%
+  );
+}
+
+.m-style {
+  background-color: rgb(100, 100, 100);
+}
+
+.search-img {
+  max-height: 120px;
+  object-fit: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.star,
+.trash-icon {
+  all: unset;
+  cursor: pointer;
+  height: 20px;
+  float: right !important;
+}
+
+.star-btn,
+.trash-btn {
+  border: none;
+  appearance: none;
+  background-color: inherit;
+}
